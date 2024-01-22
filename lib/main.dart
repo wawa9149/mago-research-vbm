@@ -102,7 +102,7 @@ class _MyPageState extends State<MyPage> {
                       SizedBox(
                         width: 650,
                         child: Text(
-                          'Dementia is not a specific disease but is rather a general term for the impaired ability to remember, think, or make decisions that interferes with doing everyday activities. Alzheimer’s disease is the most common type of dementia. Though dementia mostly affects older adults, it is not a part of normal aging.',
+                          'Distinguishing dementia and depression, two prevalent age-related disorders, remains challenging due to shared symptoms. We pioneer a voice-based approach, using machine learning and deep learning on short recordings, to achieve rapid and accurate diagnosis. This pilot study highlights the potential of vocal biomarkers for early detection and improved management of these debilitating conditions. Our future aim is to expand this framework, predicting and monitoring a wider range of age-related diseases for personalized healthcare and a healthier aging population.',
                           style: TextStyle(
                             fontSize: 15,
                             fontWeight: FontWeight.bold,
@@ -123,7 +123,7 @@ class _MyPageState extends State<MyPage> {
                   borderRadius: BorderRadius.all(Radius.circular(20)),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.fromLTRB(30, 30, 0, 20),
+                  padding: const EdgeInsets.fromLTRB(25, 20, 0, 20),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -232,16 +232,13 @@ class _MyPageState extends State<MyPage> {
                         color: Colors.grey[400],
                       ),
                       const SizedBox(
-                        height: 15,
+                        height: 10,
                       ),
                       const Text(
-                        '이 서비스를 이용하시면 약관 및 개인정보처리 방침에 동의하게 됩니다.\n연구 제휴를 맺으시면 bulk 및 Free로 시간 제약 없이 이용하실 수 있습니다.',
+                        'By using this service, you agree to the terms of service and privacy policy.\nResearch partners can use the service in bulk and free without time constraints.\nContact: powerzines@snu.ac.kr',
                         style: TextStyle(
                           fontSize: 12,
                         ),
-                      ),
-                      const SizedBox(
-                        height: 15,
                       ),
                     ],
                   ),
